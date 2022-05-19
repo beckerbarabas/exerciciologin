@@ -1,0 +1,120 @@
+/*GERAL*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  color: #323232;
+  border: none;
+
+
+}
+:root {
+--primary-color: hsl(180, 2%, 8%);
+--secondary-color:  hsl(7, 77%, 39%);
+--background-form: hsl(169, 25%, 83%);
+
+}
+
+body {
+background-image: url(./img/backgroundimage.webp);
+background-repeat: no-repeat;
+
+
+}
+
+h1 {
+font-family: MedievalSharp;
+color: var(--secondary-color);
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+legend {
+  margin-top: 10rem;
+  text-align: left;
+  font-family: MedievalSharp;
+  color: var(--secondary-color);
+  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+
+
+}
+textarea:focus, imput:focus {
+  outline: none;
+}
+
+a, label {
+  font-size: .8rem;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* login-box */
+
+#login-box {
+  background-color: white;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/*Forms*/
+
+form  {
+margin-top: 10px;
+margin-bottom: 40px;
+
+}
+
+label, input {
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+
+}
+
+input:focus {
+  border-bottom:2px solid #08558b;
+}
+
+#lostpass {
+  text-align: right;
+  display: block;
+}
+
+button {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 30px;
+  border: 1px solid #323232;
+  padding: 10px 30px;
+  margin-bottom: 5rem;
+  margin-inline: 0.5rem;
+  margin-top: 2rem;
+  font-family: MedievalSharp;
+
+  
+}
